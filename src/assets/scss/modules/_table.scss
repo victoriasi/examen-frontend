@@ -1,0 +1,12 @@
+$border: #aaa;
+
+table {
+  border: 1px solid $border;
+  border-collapse: collapse;
+
+  td, th {
+    border-collapse: collapse;
+    border: 1px solid $border;
+    padding: 8px 10px;
+  }
+}
